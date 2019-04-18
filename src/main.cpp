@@ -25,7 +25,5 @@ int main(int argc, char* argv[]) {
 		std::cout << A[n] << std::endl;
 	}
 
-	std::cout << "done bro" << std::endl;
-
 	return 0;
 }
