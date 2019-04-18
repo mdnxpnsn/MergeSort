@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 	           0, 2, 2, 2, 3, 5, 8, 9, 0,
 	           0, 0, 0, 14, 11};
 
-	int size_a = sizeof(A)/sizeof(int) - 1;
+	int size_a = sizeof(A)/sizeof(int);
 
 	merge_sort_wrapper(A, size_a);
 
